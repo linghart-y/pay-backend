@@ -1,8 +1,7 @@
 # Test task, payment system prototype, BACKEND
 
 ``` bash
-# clone Laravel-JWT Starter Kit
-$ git clone https://github.com/neatpro/Laravel-JWT.git
+$ git clone https://github.com/linghart-y/pay-backend.git
 
 $ cd pay-backend
 $ composer install
