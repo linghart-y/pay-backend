@@ -1,19 +1,14 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-# Laraverl Framework JWT Starter Kit
-> Starter Kit for a Laravel API backend Project using JWT Authentication.
-
-## Usage
-
+# Test task, payment system prototype, BACKEND
 
 ``` bash
 # clone Laravel-JWT Starter Kit
 $ git clone https://github.com/neatpro/Laravel-JWT.git
 
-$ cd Laravel-JWT
+$ cd pay-backend
 $ composer install
 
-$ cp .env.example .env
+!!! Configure .env to work correctly with the database !!!
+
 $ php artisan migrate
 $ php artisan seed
 
@@ -22,5 +17,3 @@ $ php artisan jwt:secret
 $ php artisan serve
 
 ```
-
-> Frontend using Quasar Framework https://github.com/neatpro/Quasar-JWT.git
